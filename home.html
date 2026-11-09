@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home page V1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A1424;font-family:'Work Sans',system-ui,sans-serif;color:#F5F2EB}
+*{box-sizing:border-box}
+a{color:#22B9F4}a:hover{color:#F5F2EB}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible,div[tabindex]:focus-visible{outline:3px solid #F4C622;outline-offset:3px}
+details>summary{list-style:none;cursor:pointer}
+details>summary::-webkit-details-marker{display:none}
+details[open] .faq-plus{transform:rotate(45deg)}
+.faq-plus{transition:transform .2s}
+.btn-primary:hover{background:#F5F2EB!important;color:#0A1424!important}
+.btn-ghost:hover{border-color:#22B9F4!important;color:#22B9F4!important}
+.cas-scroller::-webkit-scrollbar{display:none}
+</style>
+</head>
+<body>
+
+<div style="width:100%;background:#0A1424;color:#F5F2EB;font-family:'Work Sans',system-ui,sans-serif;font-size:17px;line-height:1.55">
+
+<!-- HEADER -->
+<header style="position:sticky;top:0;z-index:10;background:#0A1424;border-bottom:1px solid #223250">
+<div style="max-width:1240px;margin:0 auto;padding:18px 40px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px">
+<a href="home.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#F5F2EB">
+<svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><line x1="8" y1="9" x2="19" y2="17" stroke="#22B9F4" stroke-width="2"></line><line x1="19" y1="17" x2="27" y2="26" stroke="#22B9F4" stroke-width="2"></line><line x1="19" y1="17" x2="28" y2="7" stroke="#22B9F4" stroke-width="2"></line><circle cx="8" cy="9" r="4" fill="#22B9F4"></circle><circle cx="28" cy="7" r="3" fill="#22B9F4"></circle><circle cx="19" cy="17" r="5" fill="#F45D22"></circle><circle cx="27" cy="26" r="3.5" fill="#22B9F4"></circle></svg>
+<span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.06em;text-transform:uppercase">[Marque]</span>
+</a>
+<nav aria-label="Navigation principale" style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 32px">
+<a href="reveler.html" style="color:#F5F2EB;text-decoration:none;font-weight:500;font-size:16px">Révéler</a>
+<a href="#reveler" style="color:#F5F2EB;text-decoration:none;font-weight:500;font-size:16px">Innover</a>
+<a href="#reveler" style="color:#F5F2EB;text-decoration:none;font-weight:500;font-size:16px">Faire grandir</a>
+<a href="#solution" style="color:#F5F2EB;text-decoration:none;font-weight:500;font-size:16px">Comprendre</a>
+<a href="#insights" style="color:#F5F2EB;text-decoration:none;font-weight:500;font-size:16px">Insights</a>
+<a class="btn-primary" href="#contact" style="background:#F45D22;color:#0A1424;text-decoration:none;font-weight:600;font-size:16px;padding:12px 22px;border-radius:4px;min-height:44px;display:inline-flex;align-items:center">Discuter de votre projet</a>
+</nav>
+</div>
+</header>
+
+<main>
+
+<!-- 1. HERO -->
+<section style="position:relative;overflow:hidden">
+<div style="max-width:1240px;margin:0 auto;padding:88px 40px 96px;display:flex;flex-wrap:wrap;align-items:center;gap:56px;position:relative">
+<div style="flex:1 1 560px;min-width:0;position:relative">
+<p style="margin:0 0 28px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#22B9F4;display:flex;align-items:center;gap:16px"><span style="display:inline-block;width:56px;height:6px;background:rgb(244,93,34)"></span>Experts et innovateurs en ontologies, architectures sémantiques et IA neurosymbolique</p>
+<h1 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:92px;line-height:.94;text-transform:uppercase;letter-spacing:.005em">Révélez le <span style="color:#22B9F4">sens</span> de vos données pour vos <span style="color:#F45D22">équipes</span> et vos outils <span style="color:#F45D22">IA</span></h1>
+<p style="margin:32px 0 0;max-width:34em;font-size:20px;line-height:1.55;color:#C9D4E4">Nous donnons à vos données un langage commun, pour que vos équipes les retrouvent, les croisent et que votre IA les comprenne vraiment.</p>
+<div style="margin-top:40px;display:flex;flex-wrap:wrap;gap:16px">
+<a class="btn-primary" href="#contact" style="background:#F45D22;color:#0A1424;text-decoration:none;font-weight:600;font-size:17px;padding:16px 30px;border-radius:4px;min-height:52px;display:inline-flex;align-items:center">Discuter de votre projet</a>
+<a class="btn-ghost" href="#solution" style="border:2px solid #3A4E73;color:#F5F2EB;text-decoration:none;font-weight:600;font-size:17px;padding:14px 28px;border-radius:4px;min-height:52px;display:inline-flex;align-items:center">Comprendre l'approche</a>
+</div>
+<p style="margin:56px 0 0;font-family:'Instrument Serif',serif;font-style:italic;font-size:30px;line-height:1.2;color:#F5F2EB">Where data gains <span style="color:#F4C622">meaning</span>, AI gains <span style="color:#F45D22">power</span>.</p>
+</div>
+<div style="flex:1 1 420px;min-width:0;display:flex;justify-content:center">
+<svg viewBox="0 0 520 480" role="img" aria-label="Graphe de connaissances reliant un fournisseur, un lot, un produit et un client" style="width:100%;max-width:520px;height:auto">
+<g stroke="#2E4468" stroke-width="1.5" fill="none">
+<line x1="210" y1="400" x2="170" y2="230"></line>
+<line x1="440" y1="390" x2="340" y2="250"></line>
+<line x1="60" y1="330" x2="170" y2="230"></line>
+<line x1="380" y1="40" x2="440" y2="100"></line>
+<line x1="480" y1="250" x2="340" y2="250" stroke-dasharray="4 5"></line>
+</g>
+<g stroke="#F45D22" stroke-width="3" fill="none" stroke-linecap="round">
+<line x1="90" y1="90" x2="170" y2="230"></line>
+<line x1="170" y1="230" x2="340" y2="250"></line>
+<line x1="340" y1="250" x2="440" y2="100"></line>
+</g>
+<circle cx="60" cy="330" r="6" fill="#2E4468"></circle>
+<circle cx="380" cy="40" r="6" fill="#2E4468"></circle>
+<circle cx="480" cy="250" r="6" fill="#2E4468"></circle>
+<circle cx="210" cy="400" r="12" fill="#101E36" stroke="#22B9F4" stroke-width="2"></circle>
+<circle cx="440" cy="390" r="12" fill="#101E36" stroke="#22B9F4" stroke-width="2"></circle>
+<circle cx="90" cy="90" r="15" fill="#22B9F4"></circle>
+<circle cx="170" cy="230" r="15" fill="#22B9F4"></circle>
+<circle cx="340" cy="250" r="20" fill="#F45D22"></circle>
+<circle cx="440" cy="100" r="15" fill="#22B9F4"></circle>
+<g font-family="'Work Sans',sans-serif" font-size="12" fill="#A9B8CE">
+<text x="136" y="152">fournit</text>
+<text x="255" y="232" text-anchor="middle">intégré dans</text>
+<text x="402" y="182">livré à</text>
+<text x="188" y="322">constitue</text>
+<text x="398" y="326">contient</text>
+</g>
+<g font-family="'Work Sans',sans-serif" font-size="15" font-weight="600" fill="#F5F2EB">
+<text x="90" y="62" text-anchor="middle">Fournisseur</text>
+<text x="146" y="236" text-anchor="end">Lot</text>
+<text x="340" y="214" text-anchor="middle">Produit</text>
+<text x="440" y="72" text-anchor="middle">Client</text>
+<text x="210" y="436" text-anchor="middle">Composant</text>
+<text x="440" y="426" text-anchor="middle">Commande</text>
+</g>
+</svg>
+</div>
+</div>
+</section>
+
+<!-- 2. PAIN POINTS -->
+<section style="background:#0D1A2F;border-top:1px solid #223250;border-bottom:1px solid #223250">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#F4C622">Le nœud du problème</p>
+<h2 style="margin:0;max-width:14em;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:.98;text-transform:uppercase">Votre IA ne peut pas exploiter ce qu'elle ne comprend pas</h2>
+<div style="margin-top:64px;display:flex;flex-wrap:wrap;gap:48px 40px">
+<article style="flex:1 1 300px;min-width:0;border-top:3px solid #F45D22;padding-top:24px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:72px;line-height:1;color:#F45D22">01</p>
+<h3 style="margin:12px 0 12px;font-size:24px;line-height:1.25;font-weight:600">Des données impossibles à relier</h3>
+<p style="margin:0;color:#C9D4E4">Dispersées, hétérogènes, peu documentées : disponibles ne veut pas dire réutilisables.</p>
+</article>
+<article style="flex:1 1 300px;min-width:0;border-top:3px solid #22B9F4;padding-top:24px;position:relative">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:72px;line-height:1;color:#22B9F4">02</p>
+<h3 style="margin:12px 0 12px;font-size:24px;line-height:1.25;font-weight:600">Une IA qui répond à côté</h3>
+<p style="margin:0;color:#C9D4E4">Un LLM ou un agent sans contexte métier produit des résultats peu pertinents, même connecté à vos bases de données.</p>
+</article>
+<article style="flex:1 1 300px;min-width:0;border-top:3px solid #F4C622;padding-top:24px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:72px;line-height:1;color:#F4C622">03</p>
+<h3 style="margin:12px 0 12px;font-size:24px;line-height:1.25;font-weight:600">Une gouvernance pensée avant l'IA</h3>
+<p style="margin:0;color:#C9D4E4">Elle ne suffit plus quand les systèmes doivent interpréter et relier des concepts.</p>
+</article>
+</div>
+<p style="margin:88px 0 0;max-width:20em;font-family:'Instrument Serif',serif;font-style:italic;font-size:56px;line-height:1.08">Le problème n'est pas votre volume de données, c'est leur <span style="color:#F4C622">sens</span>.</p>
+</div>
+</section>
+
+<!-- 3. LA SOLUTION -->
+<section id="solution">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#22B9F4">La solution</p>
+<h2 style="margin:0;max-width:13em;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:.98;text-transform:uppercase">Posez la même question à trois niveaux d'IA</h2>
+<div style="margin-top:40px;background:#101E36;border-left:6px solid #F4C622;padding:24px 32px;max-width:860px">
+<p style="margin:0 0 6px;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#A9B8CE">EXEMPLE DE QUESTION</p>
+<p style="margin:0;font-family:'Instrument Serif',serif;font-style:italic;font-size:32px;line-height:1.25">« Quels lots de composants du fournisseur X sont intégrés dans les produits livrés au client Y ? »</p>
+</div>
+
+<div style="margin-top:48px;display:flex;flex-wrap:wrap;gap:24px">
+<article style="flex:1 1 300px;min-width:0;background:#0D1A2F;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg viewBox="0 0 300 130" role="img" aria-label="Un point central orange (le modèle d'IA) entouré de points bleus (les bases de données), sans aucun lien" style="width:100%;height:auto"><g fill="#22B9F4"><circle cx="38" cy="34" r="8"></circle><circle cx="102" cy="16" r="7"></circle><circle cx="228" cy="30" r="9"></circle><circle cx="268" cy="84" r="7"></circle><circle cx="196" cy="114" r="8"></circle><circle cx="86" cy="106" r="9"></circle><circle cx="26" cy="90" r="6"></circle><circle cx="104" cy="60" r="6"></circle><circle cx="212" cy="74" r="7"></circle><circle cx="150" cy="104" r="6"></circle><circle cx="176" cy="20" r="6"></circle></g><circle cx="150" cy="65" r="13" fill="#F45D22"></circle></svg>
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#A9B8CE">Niveau 1 · LLM</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:36px;line-height:1;text-transform:uppercase">L'IA seule</h3>
+<p style="margin:0;color:#C9D4E4">Elle ne connaît pas vos données et répond avec conviction, malgré les incertitudes.</p>
+<p style="margin:auto 0 0;padding-top:16px;border-top:1px solid #223250;font-weight:600">Une réponse plausible, mais invérifiable.</p>
+</article>
+<article style="flex:1 1 300px;min-width:0;background:#0D1A2F;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg viewBox="0 0 300 130" role="img" aria-label="Même schéma, chaque base de données bleue est reliée au point central orange" style="width:100%;height:auto"><g stroke="#F45D22" stroke-width="1.8" stroke-linecap="round"><line x1="38" y1="34" x2="150" y2="65"></line><line x1="102" y1="16" x2="150" y2="65"></line><line x1="228" y1="30" x2="150" y2="65"></line><line x1="268" y1="84" x2="150" y2="65"></line><line x1="196" y1="114" x2="150" y2="65"></line><line x1="86" y1="106" x2="150" y2="65"></line><line x1="26" y1="90" x2="150" y2="65"></line><line x1="104" y1="60" x2="150" y2="65"></line><line x1="212" y1="74" x2="150" y2="65"></line><line x1="150" y1="104" x2="150" y2="65"></line><line x1="176" y1="20" x2="150" y2="65"></line></g><g fill="#22B9F4"><circle cx="38" cy="34" r="8"></circle><circle cx="102" cy="16" r="7"></circle><circle cx="228" cy="30" r="9"></circle><circle cx="268" cy="84" r="7"></circle><circle cx="196" cy="114" r="8"></circle><circle cx="86" cy="106" r="9"></circle><circle cx="26" cy="90" r="6"></circle><circle cx="104" cy="60" r="6"></circle><circle cx="212" cy="74" r="7"></circle><circle cx="150" cy="104" r="6"></circle><circle cx="176" cy="20" r="6"></circle></g><circle cx="150" cy="65" r="13" fill="#F45D22"></circle></svg>
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#22B9F4">Niveau 2 · RAG</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:36px;line-height:1;text-transform:uppercase">L'IA + vos documents</h3>
+<p style="margin:0;color:#C9D4E4">Elle retrouve des passages pertinents, mais ne sait pas que « lot », « référence » et « numéro de série » désignent des éléments liés dans trois systèmes.</p>
+<p style="margin:auto 0 0;padding-top:16px;border-top:1px solid #223250;font-weight:600">Une réponse partielle.</p>
+</article>
+<article style="flex:1 1 300px;min-width:0;background:#13243F;border:2px solid #F45D22;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg viewBox="0 0 300 130" role="img" aria-label="Même schéma : les bases de données bleues sont reliées entre elles, voisines à voisines, et au point central orange" style="width:100%;height:auto"><g stroke="#22B9F4" stroke-width="2" stroke-linecap="round"><line x1="38" y1="34" x2="102" y2="16"></line><line x1="102" y1="16" x2="176" y2="20"></line><line x1="176" y1="20" x2="228" y2="30"></line><line x1="228" y1="30" x2="268" y2="84"></line><line x1="268" y1="84" x2="196" y2="114"></line><line x1="86" y1="106" x2="26" y2="90"></line><line x1="26" y1="90" x2="38" y2="34"></line><line x1="104" y1="60" x2="38" y2="34"></line><line x1="104" y1="60" x2="26" y2="90"></line><line x1="104" y1="60" x2="102" y2="16"></line><line x1="104" y1="60" x2="86" y2="106"></line><line x1="212" y1="74" x2="228" y2="30"></line><line x1="212" y1="74" x2="268" y2="84"></line><line x1="212" y1="74" x2="196" y2="114"></line><line x1="176" y1="20" x2="212" y2="74"></line><line x1="150" y1="104" x2="196" y2="114"></line><line x1="150" y1="104" x2="212" y2="74"></line><line x1="86" y1="106" x2="150" y2="104"></line></g><g stroke="#F45D22" stroke-width="1.8" stroke-linecap="round"><line x1="38" y1="34" x2="150" y2="65"></line><line x1="102" y1="16" x2="150" y2="65"></line><line x1="228" y1="30" x2="150" y2="65"></line><line x1="268" y1="84" x2="150" y2="65"></line><line x1="196" y1="114" x2="150" y2="65"></line><line x1="86" y1="106" x2="150" y2="65"></line><line x1="26" y1="90" x2="150" y2="65"></line><line x1="104" y1="60" x2="150" y2="65"></line><line x1="212" y1="74" x2="150" y2="65"></line><line x1="150" y1="104" x2="150" y2="65"></line><line x1="176" y1="20" x2="150" y2="65"></line></g><g fill="#22B9F4"><circle cx="38" cy="34" r="8"></circle><circle cx="102" cy="16" r="7"></circle><circle cx="228" cy="30" r="9"></circle><circle cx="268" cy="84" r="7"></circle><circle cx="196" cy="114" r="8"></circle><circle cx="86" cy="106" r="9"></circle><circle cx="26" cy="90" r="6"></circle><circle cx="104" cy="60" r="6"></circle><circle cx="212" cy="74" r="7"></circle><circle cx="150" cy="104" r="6"></circle><circle cx="176" cy="20" r="6"></circle></g><circle cx="150" cy="65" r="13" fill="#F45D22"></circle></svg>
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Niveau 3 · GraphRAG · IA neurosymbolique</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:36px;line-height:1;text-transform:uppercase">L'IA + vos données dotées de sens</h3>
+<p style="margin:0;color:#C9D4E4">Une <strong style="color:#F5F2EB">ontologie</strong> décrit votre métier, un <strong style="color:#F5F2EB">graphe de connaissances</strong> relie vos données entre elles, et l'IA suit ces relations.</p>
+<p style="margin:auto 0 0;padding-top:16px;border-top:1px solid #2E4468;font-weight:600">Une réponse complète, avec le chemin du raisonnement pour la vérifier.</p>
+</article>
+</div>
+
+<div style="margin-top:56px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 40px">
+<p style="margin:0;max-width:30em;font-family:'Instrument Serif',serif;font-style:italic;font-size:36px;line-height:1.15">La différence ne vient pas du modèle d'IA, mais de ce que votre organisation lui donne à <span style="color:#F45D22">comprendre</span>.</p>
+<a class="btn-primary" href="#" style="background:#F45D22;color:#0A1424;text-decoration:none;font-weight:600;font-size:17px;padding:16px 30px;border-radius:4px;min-height:52px;display:inline-flex;align-items:center">Comprendre notre approche</a>
+</div>
+</div>
+</section>
+
+<!-- 4. PARCOURS PAR BESOIN -->
+<section id="reveler" style="background:#0D1A2F;border-top:1px solid #223250;border-bottom:1px solid #223250">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#F4C622">NOS TROIS APPROCHES</p>
+<h2 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:.98;text-transform:uppercase">TRANSFORMER VOS DONNÉES DISPERSÉES EN CONNAISSANCES EXPLOITABLES PAR VOS OUTILS IA</h2>
+<div style="margin:24px 0 0;max-width:40em;font-size:20px;line-height:1.5;color:#C9D4E4"><p style="margin:0">Nous associons ontologies, ingénierie des connaissances et IA neurosymbolique pour concevoir des solutions intelligentes adaptées à vos enjeux métier, scientifiques et industriels.</p></div>
+<div style="margin-top:56px;display:flex;flex-wrap:wrap;gap:24px">
+<article style="flex:1 1 320px;min-width:0;background:#101E36;border-top:8px solid #22B9F4;padding:36px 32px 32px;display:flex;flex-direction:column">
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;white-space:nowrap;text-transform:uppercase;color:#22B9F4">Révéler</h3>
+<p style="margin:20px 0 0;font-size:22px;line-height:1.3;font-weight:600">Donnez du sens à vos données et rendez les exploitables pour vos équipe et outils IA.</p>
+<ul style="margin:24px 0 0;padding:0;list-style:none;color:#C9D4E4">
+<li style="padding:10px 0;border-top:1px solid #223250">Check-up sémantique · 10-15 jours</li>
+<li style="padding:10px 0;border-top:1px solid #223250">Proof of concept</li>
+<li style="padding:10px 0;border-top:1px solid #223250">Déploiement</li><li style="padding:10px 0;border-top:1px solid #223250">Maintenance d'ontologies</li>
+</ul>
+<a href="#" style="margin-top:auto;padding-top:28px;font-weight:600">Découvrir Révéler →</a>
+</article>
+<article style="flex:1 1 320px;min-width:0;background:#101E36;border-top:8px solid #F45D22;padding:36px 32px 32px;display:flex;flex-direction:column">
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;white-space:nowrap;text-transform:uppercase;color:#F45D22">Innover</h3>
+<p style="margin:20px 0 0;font-size:22px;line-height:1.3;font-weight:600">Grâce à la recherche, nous créons les innovations data et IA de demain pour les implémenter chez vous.</p>
+<ul style="margin:24px 0 0;padding:0;list-style:none;color:#C9D4E4">
+<li style="padding:10px 0;border-top:1px solid #223250">La recherche, coeur de l'innovation</li>
+<li style="padding:10px 0;border-top:1px solid #223250">Implémentation des innovations en entreprises</li>
+</ul>
+<a href="#" style="margin-top:auto;padding-top:28px;font-weight:600">Découvrir Innover →</a>
+</article>
+<article style="flex:1 1 320px;min-width:0;background:#101E36;border-top:8px solid #F4C622;padding:36px 32px 32px;display:flex;flex-direction:column">
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;white-space:nowrap;text-transform:uppercase;color:#F4C622">TRANSMETTRE</h3>
+<p style="margin:20px 0 0;font-size:22px;line-height:1.3;font-weight:600">Faites de vos connaissances interne, une expertise à forte valeur ajoutée.</p>
+<ul style="margin:24px 0 0;padding:0;list-style:none;color:#C9D4E4">
+<li style="padding:10px 0;border-top:1px solid #223250">Sensibilisation des CODIR et COMEX</li>
+<li style="padding:10px 0;border-top:1px solid #223250">Formations techniques</li>
+<li style="padding:10px 0;border-top:1px solid #223250">Conseil d'experts (intervention ponctuelle)</li><li style="padding:10px 0;border-top:1px solid #223250;position:relative">Accompagnement à long terme</li>
+</ul>
+<a href="#" style="margin-top:auto;padding-top:28px;font-weight:600">Découvrir Faire grandir →</a>
+</article>
+</div>
+</div>
+</section>
+
+<!-- 5. POURQUOI NOUS (section claire) -->
+<section style="background:#F2F0EA;color:#0A1424">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px;display:flex;flex-wrap:wrap;gap:56px 80px">
+<div style="flex:1 1 380px;min-width:0">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#B8400F">PAS UN SIMPLE CABINET DE CONSEIL DATA ET IA</p>
+<h2 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:72px;line-height:.95;text-transform:uppercase;position:relative;max-width:508px">Nous créons la solution au coeur de votre problème : <br>donner du sens à vos datA.<br></h2>
+<p style="margin:40px 0 0;font-family:'Instrument Serif',serif;font-style:italic;font-size:44px;line-height:1.2;color:#0A1424">Where data gains <span style="color:rgb(184,64,15)">meaning</span>, <br>AI gains <span style="color:rgb(244,93,34)">power</span>.</p>
+</div>
+<div style="flex:1 1 460px;min-width:0">
+<div style="display:flex;gap:24px;padding:24px 0;border-top:2px solid #0A1424">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;color:#F45D22;min-width:64px">1</p>
+<div><h3 style="margin:0 0 6px;font-size:22px;font-weight:600;line-height:1.25">La maîtrise des fondements de l'IA</h3><p style="margin:0;color:#2B3A55">Ontologies, architectures sémantiques et IA neurosymbolique : des compétences rares au service de vos projets.</p></div>
+</div>
+<div style="display:flex;gap:24px;padding:24px 0;border-top:1px solid #B9B4A8">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;color:#F45D22;min-width:64px">2</p>
+<div><h3 style="margin:0 0 6px;font-size:22px;font-weight:600;line-height:1.25">Issus de la recherche européenne</h3><p style="margin:0;color:#2B3A55">Depuis 2014, nous créons et transformons des avancées scientifiques en approches applicables en entreprises.</p></div>
+</div>
+<div style="display:flex;gap:24px;padding:24px 0;border-top:1px solid #B9B4A8">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;color:#F45D22;min-width:64px">3</p>
+<div><h3 style="margin:0 0 6px;font-size:22px;font-weight:600;line-height:1.25">Un réseau international d'experts</h3><p style="margin:0;color:#2B3A55">Mobilisable selon vos besoins.</p></div>
+</div>
+<div style="display:flex;gap:24px;padding:24px 0;border-top:1px solid #B9B4A8">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;color:#F45D22;min-width:64px">4</p>
+<div><h3 style="margin:0 0 6px;font-size:22px;font-weight:600;line-height:1.25">Une approche pragmatique</h3><p style="margin:0;color:#2B3A55">Un périmètre limité, un cas d'usage concret, une valeur démontrée avant d'étendre.</p></div>
+</div>
+<div style="display:flex;gap:24px;padding:24px 0;border-top:1px solid #B9B4A8;border-bottom:2px solid #0A1424">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;color:#F45D22;min-width:64px">5</p>
+<div><h3 style="margin:0 0 6px;font-size:22px;font-weight:600;line-height:1.25">Une vulgarisation pour une meilleure adoption</h3><p style="margin:0;color:#2B3A55">De la direction aux équipes techniques, chacun comprend l'enjeu, la démarche et ce qu'il peut en attendre.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 6. USE CASES -->
+<section id="insights">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px 32px">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#22B9F4">CAS D'USAGE INDUSTRIELS · PROJET ONTOCOMMONS</p>
+<h2 style="margin:0;max-width:12em;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:.98;text-transform:uppercase">WEB SÉMANTIQUE ET ONTOLOGIE: 5 CAS D'USAGE EUROPÉENS</h2>
+<p style="margin:28px 0 0;max-width:46em;font-size:19px;color:#C9D4E4">Découvrez 5 success stories de mise en place de méthodologies du Web Sémantique et d'ontologies permettant de relier des données hétérogènes, partager un langage commun et fiabiliser l'IA.</p>
+</div>
+<div style="max-width:1240px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;gap:16px"><p style="margin:0;font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#A9B8CE">5 CAS À PARCOURIR</p><div style="display:flex;gap:12px"><button type="button" id="cas-prev" aria-label="Cas précédent" style="width:56px;height:56px;border-radius:50%;border:2px solid #F45D22;background:#0A1424;color:#F45D22;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button><button type="button" id="cas-next" aria-label="Cas suivant" style="width:56px;height:56px;border-radius:50%;border:2px solid #F45D22;background:#0A1424;color:#F45D22;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></div>
+<div class="cas-scroller" id="cas-scroller" tabindex="0" role="region" aria-label="Cinq cas d'usage, défilement horizontal" style="display:flex;gap:24px;overflow-x:auto;scrollbar-width:none;padding:32px 40px 40px;scroll-snap-type:x mandatory">
+<article style="flex:0 0 360px;scroll-snap-align:start;background:#101E36;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Aéronautique</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1;text-transform:uppercase">Rapprocher conception et assemblage</h3>
+<p style="margin:0;color:#A9B8CE;font-size:15px">Faire dialoguer la conception des systèmes industriels et l'assemblage d'un avion.</p>
+<p style="margin:0;font-size:16px">Les connaissances métier deviennent explicites, et les décisions prises en conception comme en assemblage sont mieux tracées.</p>
+<p style="margin:auto 0 0;padding-top:12px;font-size:13px;color:#A9B8CE">ISO/IEC 21838 · IOF-Core</p>
+<a href="https://ontocommons.eu/demonstrators/airbus-design-and-manifacturing" style="font-size:15px;font-weight:600;padding:8px 0">Source : OntoCommons, cas Airbus →</a>
+</article>
+<article style="flex:0 0 360px;scroll-snap-align:start;background:#101E36;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Distribution</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1;text-transform:uppercase">Sortir la connaissance client des silos</h3>
+<p style="margin:0;color:#A9B8CE;font-size:15px">La connaissance des besoins et des problèmes des clients est dispersée dans des silos de données.</p>
+<p style="margin:0;font-size:16px">Un graphe de connaissances connecte ces données et les rend utilisables dans tous les services et systèmes.</p>
+<p style="margin:auto 0 0;padding-top:12px;font-size:13px;color:#A9B8CE">Graphe de connaissances</p>
+<a href="https://ontocommons.eu/demonstrators/ikea-knowledge-graph" style="font-size:15px;font-weight:600;padding:8px 0">Source : OntoCommons, cas IKEA →</a>
+</article>
+<article style="flex:0 0 360px;scroll-snap-align:start;background:#101E36;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Industrie</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1;text-transform:uppercase">Un accès unifié aux données d'ingénierie</h3>
+<p style="margin:0;color:#A9B8CE;font-size:15px">Les données d'ingénierie électrique, mécanique et d'automatisation sont éparpillées entre des outils hétérogènes.</p>
+<p style="margin:0;font-size:16px">Une bibliothèque d'ontologies donne un accès intégré à ces données. Le cas vise aussi à rendre les décisions de l'IA plus transparentes grâce à l'explicabilité.</p>
+<p style="margin:auto 0 0;padding-top:12px;font-size:13px;color:#A9B8CE">ISO 15936 · OPC-UA · eClass</p>
+<a href="https://ontocommons.eu/demonstrators/siemens-digital-manufacturing" style="font-size:15px;font-weight:600;padding:8px 0">Source : OntoCommons, cas Siemens →</a>
+</article>
+<article style="flex:0 0 360px;scroll-snap-align:start;background:#101E36;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Agriculture</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1;text-transform:uppercase">Faire parler des objets connectés différents</h3>
+<p style="margin:0;color:#A9B8CE;font-size:15px">Capteurs et appareils IoT utilisent des protocoles et des structures de données différents.</p>
+<p style="margin:0;font-size:16px">Une ontologie IIoT unifiée, en cours de développement et fondée sur la norme IEEE 1872, les décrit de façon commune.</p>
+<p style="margin:auto 0 0;padding-top:12px;font-size:13px;color:#A9B8CE">IEEE 1872 · IoT-Lite</p>
+<a href="https://ontocommons.eu/demonstrators/solution-soilless-culture-nutrient" style="font-size:15px;font-weight:600;padding:8px 0">Source : OntoCommons, culture hors-sol →</a>
+</article>
+<article style="flex:0 0 360px;scroll-snap-align:start;background:#101E36;border:1px solid #223250;border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Matériaux</p>
+<h3 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1;text-transform:uppercase">Réduire le nombre d'essais</h3>
+<p style="margin:0;color:#A9B8CE;font-size:15px">Connaître le comportement d'un matériau selon ses conditions d'usage demande de nombreux essais.</p>
+<p style="margin:0;font-size:16px">Une recherche fédérée dans les bases, articles et essais passés vise à réutiliser l'existant plutôt que refaire des expériences.</p>
+<p style="margin:auto 0 0;padding-top:12px;font-size:13px;color:#A9B8CE">EMMO</p>
+<a href="https://ontocommons.eu/demonstrators/materials-tribological-characterisation" style="font-size:15px;font-weight:600;padding:8px 0">Source : OntoCommons, tribologie →</a>
+</article>
+</div>
+<div style="max-width:1240px;margin:0 auto;padding:16px 40px 104px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 40px">
+<p style="margin:0;max-width:30em;font-family:'Instrument Serif',serif;font-style:italic;font-size:34px;line-height:1.15">Et dans votre secteur ? Identifions ensemble le cas d'usage qui démontrerait le plus vite la valeur d'une meilleure connexion entre vos données.</p>
+<a class="btn-primary" href="#contact" style="background:#F45D22;color:#0A1424;text-decoration:none;font-weight:600;font-size:17px;padding:16px 30px;border-radius:4px;min-height:52px;display:inline-flex;align-items:center">Discuter de votre cas d'usage</a>
+</div>
+</section>
+
+<!-- 7. FAQ -->
+<section style="background:#0D1A2F;border-top:1px solid #223250;border-bottom:1px solid #223250">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px;display:flex;flex-wrap:wrap;gap:48px 72px">
+<div style="flex:1 1 320px;min-width:0">
+<p style="margin:0 0 20px;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#F4C622">Questions fréquentes</p>
+<h2 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:.98;text-transform:uppercase">Ce que l'on nous demande souvent</h2>
+</div>
+<div style="flex:2 1 520px;min-width:0">
+<details open style="border-top:1px solid #2E4468;padding:6px 0">
+<summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;font-size:21px;font-weight:600;min-height:44px">Qu'est-ce qu'une ontologie, concrètement ?<span class="faq-plus" aria-hidden="true" style="font-size:32px;line-height:1;color:#F45D22">+</span></summary>
+<p style="margin:0 0 20px;color:#C9D4E4;max-width:40em">Une modélisation formelle des concepts de votre métier, de leurs propriétés et de leurs relations. Elle donne à vos équipes comme à vos systèmes une compréhension commune de vos données.</p>
+</details>
+<details style="border-top:1px solid #2E4468;padding:6px 0">
+<summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;font-size:21px;font-weight:600;min-height:44px">Quel lien entre web sémantique et IA ?<span class="faq-plus" aria-hidden="true" style="font-size:32px;line-height:1;color:#F45D22">+</span></summary>
+<p style="margin:0 0 20px;color:#C9D4E4;max-width:40em">Le web sémantique regroupe les standards (RDF, OWL, SPARQL) qui décrivent les données avec un sens explicite et les relient entre systèmes. Cette base permet à une IA d'interpréter vos informations au lieu de simplement les retrouver.</p>
+</details>
+<details style="border-top:1px solid #2E4468;padding:6px 0">
+<summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;font-size:21px;font-weight:600;min-height:44px">Qu'est-ce que le GraphRAG et pourquoi parler d'IA neurosymbolique ?<span class="faq-plus" aria-hidden="true" style="font-size:32px;line-height:1;color:#F45D22">+</span></summary>
+<p style="margin:0 0 20px;color:#C9D4E4;max-width:40em">Le GraphRAG fait appuyer une IA générative sur un graphe de connaissances. L'approche est dite neurosymbolique car elle associe un modèle de langage à des connaissances structurées et explicites, ce qui rend les réponses plus fiables et vérifiables.</p>
+</details>
+<details style="border-top:1px solid #2E4468;padding:6px 0">
+<summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;font-size:21px;font-weight:600;min-height:44px">J'ai déjà connecté mes outils avec n8n ou des agents, et ça fonctionne donc pourquoi prévoir des ontologies ?<span class="faq-plus" aria-hidden="true" style="font-size:32px;line-height:1;color:rgb(244,93,34)">+</span></summary>
+<p style="margin:0 0 20px;color:#C9D4E4;max-width:40em">C'est une bonne première étape : connecter les outils automatise déjà des flux. La question est de savoir si vos systèmes comprennent aussi le sens des données qu'ils manipulent. Quand les informations sont ambiguës ou mal contextualisées, une automatisation peut fonctionner tout en produisant des résultats peu pertinents.</p>
+</details>
+<details style="border-top:1px solid #2E4468;border-bottom:1px solid #2E4468;padding:6px 0">
+<summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;font-size:21px;font-weight:600;min-height:44px">Mes données sont trop nombreuses, par où commencer ?<span class="faq-plus" aria-hidden="true" style="font-size:32px;line-height:1;color:#F45D22">+</span></summary>
+<p style="margin:0 0 20px;color:#C9D4E4;max-width:40em">Pas besoin de tout traiter en même temps. Nous partons d'un périmètre limité, choisi selon vos priorités métier et un cas d'usage concret, pour valider l'approche avant de l'étendre.</p>
+</details>
+</div>
+</div>
+</section>
+
+<!-- 9. CTA FINAL -->
+<section id="contact" style="background:#F45D22;color:#0A1424">
+<div style="max-width:1240px;margin:0 auto;padding:104px 40px;display:flex;flex-wrap:wrap;align-items:center;gap:56px 72px">
+<div style="flex:1 1 420px;min-width:0">
+<h2 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:96px;line-height:.92;text-transform:uppercase">Parlons de vos données</h2>
+<p style="margin:28px 0 0;max-width:30em;font-size:20px;line-height:1.5">Un premier échange pour identifier le cas d'usage qui démontrerait le plus vite la valeur d'une meilleure connexion entre vos données.</p>
+</div>
+<form style="flex:1 1 380px;min-width:0;background:#0A1424;color:#F5F2EB;border-radius:6px;padding:36px;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-direction:column;gap:8px"><label for="f-nom" style="font-size:15px;font-weight:600">Nom</label><input id="f-nom" type="text" style="height:48px;padding:0 14px;border:1px solid #3A4E73;border-radius:4px;background:#101E36;color:#F5F2EB;font-family:inherit;font-size:16px"><label for="f-prenom" style="font-size:15px;font-weight:600">Prénom</label>
+<input id="f-prenom" type="text" style="height:48px;padding:0 14px;border:1px solid #3A4E73;border-radius:4px;background:#101E36;color:#F5F2EB;font-family:inherit;font-size:16px"></div>
+<div style="display:flex;flex-direction:column;gap:8px"><label for="f-ent" style="font-size:15px;font-weight:600">Entreprise</label><input id="f-ent" type="text" style="height:48px;padding:0 14px;border:1px solid #3A4E73;border-radius:4px;background:#101E36;color:#F5F2EB;font-family:inherit;font-size:16px"><label for="f-mail" style="font-size:15px;font-weight:600">E-mail professionnel</label><input id="f-mail" type="email" style="height:48px;padding:0 14px;border:1px solid #3A4E73;border-radius:4px;background:#101E36;color:#F5F2EB;font-family:inherit;font-size:16px"></div>
+<div style="display:flex;flex-direction:column;gap:8px"><label for="f-msg" style="font-size:15px;font-weight:600">Quel est votre enjeu ?</label><textarea id="f-msg" rows="3" style="padding:12px 14px;border:1px solid #3A4E73;border-radius:4px;background:#101E36;color:#F5F2EB;font-family:inherit;font-size:16px;resize:vertical"></textarea></div>
+<button type="button" class="btn-primary" style="background:#F45D22;color:#0A1424;border:0;font-family:inherit;font-weight:600;font-size:17px;padding:16px 30px;border-radius:4px;min-height:52px;cursor:pointer">Discuter de votre projet</button>
+</form>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER (3 colonnes, version validée du canvas "Bas de page") -->
+<footer style="background:#0A1424;border-top:1px solid #223250">
+<div style="max-width:1240px;margin:0 auto;padding:56px 40px 32px;display:flex;flex-wrap:wrap;gap:40px 56px">
+<div style="flex:1.3 1 300px;min-width:0">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.06em;text-transform:uppercase">[Marque]</p>
+<p style="margin:6px 0 0;font-family:'Instrument Serif',serif;font-style:italic;font-size:22px;color:#A9B8CE">Where data gains meaning, AI gains power.</p>
+</div>
+<nav aria-label="Pied de page" style="flex:1 1 200px;min-width:0;display:flex;flex-direction:column">
+<p style="margin:0 0 12px;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Le site</p>
+<a href="#" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Révéler</a><a href="#" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Innover</a><a href="#" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Faire grandir</a><a href="#" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Comprendre</a><a href="#" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Insights</a><a href="#contact" style="color:#F5F2EB;text-decoration:none;font-size:15px;padding:6px 0">Contact</a>
+</nav>
+<div style="flex:1 1 200px;min-width:0;display:flex;flex-direction:column">
+<p style="margin:0 0 12px;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#F4C622">Retrouvez-nous sur</p>
+<a href="#" aria-label="LinkedIn" style="display:inline-flex;align-items:center;gap:12px;color:#F5F2EB;text-decoration:none;font-size:15px;padding:10px 0"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F4C622" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8.01"/><path d="M12 16v-5M12 13a2.5 2.5 0 0 1 5 0v3"/></svg>LinkedIn</a>
+<a href="#" aria-label="YouTube" style="display:inline-flex;align-items:center;gap:12px;color:#F5F2EB;text-decoration:none;font-size:15px;padding:10px 0"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F4C622" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg>YouTube</a>
+</div>
+</div>
+<div style="max-width:1240px;margin:0 auto;padding:0 40px 40px"><div style="border-top:1px solid #223250;padding-top:20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 32px;font-size:14px;color:#A9B8CE">
+<span>©2026 e-Science Data Factory</span>
+<div style="display:flex;flex-wrap:wrap;gap:8px 24px"><a href="#" style="color:#A9B8CE;text-decoration:none;padding:8px 0">Mentions légales</a><a href="#" style="color:#A9B8CE;text-decoration:none;padding:8px 0">Politique de confidentialité</a></div></div></div>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var el = document.getElementById('cas-scroller');
+  function go(d) { if (el) el.scrollBy({ left: d * 384, behavior: 'smooth' }); }
+  document.getElementById('cas-prev').addEventListener('click', function () { go(-1); });
+  document.getElementById('cas-next').addEventListener('click', function () { go(1); });
+})();
+</script>
+</body>
+</html>
